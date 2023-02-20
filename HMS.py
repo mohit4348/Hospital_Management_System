@@ -19,7 +19,7 @@ class Hospital:
         self.root.title("Hospital Management System")
         self.root.geometry("1550x700")
         lbltitle = Label(self.root,bd=10,text="+HOSPITAL MANAGEMENT SYSTEM",bg="green",fg="red",font="comicsans 50 bold",relief=RIDGE)
-        root.iconbitmap(r"C:\Users\Mohit Sharma\OneDrive\Desktop\New folder\hospital\h.ico")
+        root.iconbitmap(r"C:\Users\Mohit Sharma\OneDrive\Desktop\New folder\Hospital_Management_System\h.ico")
         lbltitle.pack(side=TOP,fill=X)
         pygame.mixer.init()
         
